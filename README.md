@@ -39,10 +39,11 @@ The hardware is dirt cheap and should be easy to buy and build.
 Here is how the PCB looks:
 ![PassRF](https://github.com/gvrubio/PassRF-Arduino/assets/82053814/751e838e-2f41-40b8-b52c-9649d4af47c7)
 
-And here is the upload:
-
 ## What are some features expected on the future:
-- Reset button to restart the WPA password wizard.
+- ~~Reset button to restart the WPA password wizard.~~
+
+    - Put a 10k resistor between D1 and GND, then short D1 and 3.3v for 5 seconds until the led turns off. SETUP will show up again to reset your WPA password.
+
 - Automatic password reset on different client connection.
 - Client whitelist.
 - Android Keepass2Android integration plugin.
@@ -59,5 +60,5 @@ And here is the upload:
   Link to the hardware:
   [LINK](https://github.com/gvrubio/PassRF-Hardware)
 
-  Link to the ESP8266 code:
-  [LINK](https://github.com/gvrubio/PassRF-ESP8266)
+  Link to the Arduino code:
+  [LINK](https://github.com/gvrubio/PassRF-Arduino)
